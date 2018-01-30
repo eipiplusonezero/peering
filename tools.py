@@ -5,11 +5,6 @@ from ipaddr import IPNetwork, IPv4Network, IPv6Network
 page = 'netixlan'
 query = {'asn': 714}
 
-netnod = [{'name':'sth-b',
-           'mtu': 1500,
-           'ipv4': 
-           }]
-
 
 def get_peeringdb_data(page, query):
   base_url = 'https://www.peeringdb.com/api'
